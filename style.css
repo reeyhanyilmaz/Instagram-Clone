@@ -295,7 +295,8 @@ body{
         margin-right: 20px;
     }
     
-    .reaction-wrapper .icon .save{
+    
+    .reaction-wrapper .icon.save{  /*** iconu sağa geçirdi***/
         margin-left: auto;
     }
 
