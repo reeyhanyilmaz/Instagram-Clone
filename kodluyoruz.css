@@ -1,10 +1,24 @@
+body {
+  padding-top: 70px;
+   background-color: #FAFAFA; 
+   overflow-x: hidden;
+}
+
+
 ::placeholder{
     text-align: center;
     font-size: 14px;
     color: gray;
     background-position: 40%;
     background-size: 6%;
+    background-image: url(/assets/kodluyoruzsearch-icon.svg);
+    background-repeat: no-repeat;
   }
+
+  .middlearea {
+    height: 200px !important;
+  }
+
   
   input.empty {
       font-family: FontAwesome;
@@ -43,4 +57,13 @@
   .rightpanellinks:hover {
     text-decoration: none;
     color: lightgrey;
+  }
+
+  .card-header { background-color: white;
+
+  }
+   
+  .card-footer
+  {
+  background-color: white;
   }
